@@ -1,0 +1,29 @@
+{{#extend "application"}}
+{{!-- This content will be put in the head tag. Use it to load stylesheets. --}}
+{{#content "head"}}
+<link rel="stylesheet" href="assets/css/members.css">
+{{/content}}
+
+{{!-- This is where stuff the user sees should go. --}}
+{{#content "body"}}
+<section class="bg-primary text-light">
+    {{!-- page title and text --}}
+    <div class="container">
+        <div class="row-center">
+		<h2 class="section-title">{{info.name}}</h2>
+        </div>
+        <div class="row-center text-center mb-5">
+            <p>
+	    {{info.description}}
+            </p>
+        </div>
+    </div>
+    <div class="picture " style="background-image:url(./assets/img/{{info.picture}})">
+    </div> {{!-- /page title and text --}}
+</section>
+{{/content}}
+
+{{!-- This content will be put at the bottom of the page. Use it to load scripts. --}}
+{{#content "foot"}}
+{{/content}}
+{{/extend}}

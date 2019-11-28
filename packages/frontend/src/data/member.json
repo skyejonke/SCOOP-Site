@@ -1,0 +1,12 @@
+{
+    "pages": [
+        { "text": "Home", "url": "./index.html" },
+        { "text": "Member Orgs", "url": "./members.html"},
+        { "text": "Calendar", "url": "./calendar.html" },
+        { "text": "About", "url": "./about.html" }
+      ],
+      "info": {
+          "name" : "Open Sourcery",
+          "description": " Dedicated to making programming more accessable, serving the campus community's tech needs, and sustainability. ",
+      "picture": "carousel-1.jpg"}
+}

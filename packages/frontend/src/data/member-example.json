@@ -1,0 +1,12 @@
+{
+    "pages": [
+        { "text": "Home", "url": "./index.html" },
+        { "text": "Member Orgs", "url": "./members.html"},
+        { "text": "Calendar", "url": "./calendar.html" },
+        { "text": "About", "url": "./about.html" }
+      ],
+      "info": {
+          "name" : "Aenean pretium justo",
+          "description": " Aenean ultrices ac enim in finibus. Etiam eu sapien ullamcorper, porttitor arcu in, scelerisque lectus. Maecenas et mi urna. Phasellus sit amet fringilla ex, in gravida neque. Curabitur non orci eu tortor pellentesque pellentesque eu et justo. Pellentesque velit tellus, pretium sed consectetur mattis, condimentum sit amet tellus. Nulla mattis ac tellus vitae euismod. Pellentesque lacinia nulla orci, non scelerisque felis interdum efficitur. Curabitur lacinia neque rhoncus finibus cursus. Fusce lacinia magna tortor, at sodales nisi semper non. ",
+      "picture": "carousel-1.jpg"}
+}
